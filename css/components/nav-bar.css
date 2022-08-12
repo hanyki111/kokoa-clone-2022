@@ -1,11 +1,18 @@
 .nav {
-
+    bottom: 0;
+    width: 100%;
+    position: fixed;
     background-color: #f9f9fa;
     padding: 15px 50px;
-
+    box-sizing: border-box;
+    border-top: 1px solid rgba(196, 196, 196, 0.486);
 }
 
 .nav__ul {
     display: flex;
     justify-content: space-between;
+}
+
+.nav__btn {
+    color: var(--icon-color);
 }
