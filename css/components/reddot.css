@@ -1,0 +1,17 @@
+.reddot {
+    background-color: tomato;
+    display:flex;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    left: 30px;
+    top: 2px;
+    
+}
+
+.screen-header__icons--reddot {
+    left: 70px;
+}
