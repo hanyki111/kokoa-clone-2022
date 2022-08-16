@@ -15,3 +15,8 @@
 .screen-header__icons--reddot {
     left: 70px;
 }
+
+.screen-header__more__icons--reddot {
+    left: 112px;
+    top: -5px;
+}
