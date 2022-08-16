@@ -24,10 +24,46 @@
         </div>
     </div> <!-- END div id="status-bar"-->
 
-
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">
+                Settings
+            </h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        </div>
+    </header>
 
     <main class="main-screen">
-       
+       <ul class="setting-list">
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
+            </div>
+            <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>Kokoa Lab</span>
+            </div>
+            <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+            </div>
+            <div class="settings__setting-column">Latest Version</div>
+        </li>
+       </ul>
     </main>
 
     <nav class="nav">
@@ -46,6 +82,12 @@
             </li>
         </ul>
     </nav>
+
+    
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+    
     <script src="https://kit.fontawesome.com/1321480342.js" crossorigin="anonymous"></script>
     <!-- FontAwesome 스크립트. 스크립트는 body 태그 닫기 전에 있어야 함.-->
 </body>

@@ -20,3 +20,16 @@
 .screen-header__icons {
     position: relative;
 }
+
+@keyframes rotateIcons{
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: rotateIcons 1s linear infinite;
+}
